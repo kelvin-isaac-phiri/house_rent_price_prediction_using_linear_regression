@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# Virtual environments
+venv/
+.venv/
+env/
+.env
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb_auto_save
+
+# Trained models (keep the folder, not the binary files)
+models/*.pkl
+models/*.joblib
+!models/.gitkeep
+
+# Processed data and user-downloaded Kaggle files
+datasets/raw/*.csv
+!datasets/raw/sample_housing.csv
+datasets/processed/*
+!datasets/processed/.gitkeep
+
+# Generated figures (except the folder itself)
+outputs/figures/*
+!outputs/figures/.gitkeep
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp

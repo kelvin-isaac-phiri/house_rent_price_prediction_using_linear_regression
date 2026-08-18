@@ -1,0 +1,3 @@
+# This folder stores trained model files created after you run the notebook
+# or `python -m src.pipeline`.
+# Files ending in .joblib are ignored by git (they are generated, not source).
